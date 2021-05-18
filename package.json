@@ -17,14 +17,11 @@
   },
   "homepage": "https://github.com/nasiruddin-saiyed-hb/login-component-library#readme",
   "author": "Nasiruddin Saiyed",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
+  "dependencies": {    
     "web-vitals": "^1.1.2"
   },
   "peerDependencies": {
@@ -41,8 +38,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
