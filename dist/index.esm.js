@@ -1,9 +1,15 @@
+import { jsx } from 'react/jsx-runtime';
+
 function App() {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "App"
-  }, /*#__PURE__*/React.createElement("header", {
-    className: "App-header"
-  }, /*#__PURE__*/React.createElement("p", null, "Hello From Login Component Library")));
+  return /*#__PURE__*/jsx("div", {
+    className: "App",
+    children: /*#__PURE__*/jsx("header", {
+      className: "App-header",
+      children: /*#__PURE__*/jsx("p", {
+        children: "Hello From Login Component Library"
+      })
+    })
+  });
 }
 
 export { App as LoginComponent };

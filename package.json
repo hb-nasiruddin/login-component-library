@@ -1,7 +1,6 @@
 {
   "name": "@nasiruddin-saiyed-hb/login-component-library",
   "description": "Learning to publish react component as an npm library",
-
   "files": [
     "./dist"
   ],
@@ -17,11 +16,11 @@
   },
   "homepage": "https://github.com/nasiruddin-saiyed-hb/login-component-library#readme",
   "author": "Nasiruddin Saiyed",
-  "version": "0.0.1",
+  "version": "0.0.02",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
-  "dependencies": {    
+  "dependencies": {
     "web-vitals": "^1.1.2"
   },
   "peerDependencies": {
